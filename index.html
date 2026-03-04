@@ -1,123 +1,39 @@
-/* ========== GLOBAL RESET ========== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cybersecurity Site</title>
 
-html {
-    scroll-behavior: smooth;
-}
+    <!-- Cache-busting meta tags to prevent old cached versions -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
 
-body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background-color: #000;
-    color: #fff;
-    line-height: 1.7;
-}
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <h1>Welcome to Cybersecurity!</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="careers.html">Careers</a> |
+            <a href="comparison.html">Comparison</a> |
+            <a href="glossary.html">Glossary</a> |
+            <a href="threats.html">Threats</a>
+        </nav>
+    </header>
 
-/* ========== NAVIGATION ========== */
-nav {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    padding: 20px 0;
-    background: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(10px);
-    text-align: center;
-    z-index: 1000;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-}
+    <!-- Main Content -->
+    <main>
+        <p>This is the homepage of your Cybersecurity site.</p>
+        <p>All pages and CSS should now load correctly on GitHub Pages.</p>
+    </main>
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 25px;
-    font-size: 0.85rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    color: #888;
-}
-
-/* ========== HERO SECTION ========== */
-header {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(circle at center, #111 0%, #000 70%);
-    text-align: center;
-}
-
-header h1 {
-    font-size: 5rem;
-    letter-spacing: 5px;
-}
-
-header p {
-    margin-top: 20px;
-    font-size: 1.2rem;
-    color: #aaa;
-}
-
-/* ========== SECTIONS ========== */
-.container {
-    padding: 120px 12%;
-}
-
-.container h2 {
-    font-size: 2.8rem;
-    margin-bottom: 30px;
-}
-
-.container p {
-    margin-bottom: 25px;
-    font-size: 1.1rem;
-    color: #ccc;
-}
-
-/* ========== GLASS CARDS ========== */
-.card {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255,255,255,0.1);
-    border-radius: 15px;
-    padding: 30px;
-    margin-bottom: 30px;
-    backdrop-filter: blur(15px);
-    transition: 0.4s;
-}
-
-.card:hover {
-    transform: translateY(-8px);
-    border-color: rgba(255,255,255,0.3);
-}
-
-/* ========== TABLE ========== */
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 18px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-}
-
-th {
-    text-align: left;
-    font-size: 1rem;
-}
-
-/* ========== FOOTER ========== */
-footer {
-    text-align: center;
-    padding: 60px;
-    font-size: 0.9rem;
-    color: #777;
-    border-top: 1px solid rgba(255,255,255,0.1);
-}
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Cybersecurity Site</p>
+    </footer>
+</body>
+</html>
